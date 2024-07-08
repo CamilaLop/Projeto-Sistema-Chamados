@@ -26,19 +26,3 @@ def create_table():
 
 # Chamar a função para criar a tabela
 create_table()
-
-# import sqlite3
-
-# conn=sqlite3.connect('db/dbcads.db', check_same_thread=False)
-
-# def create_table():
-#     c = conn.cursor()
-#     c.execute("""CREATE TABLE IF NOT EXISTS users 
-#         (id INTEGER PRIMARY KEY AUTOINCREMENT, 
-#         title TEXT, 
-#         name TEXT, 
-#         number INTEGER, 
-#         nature TEXT, 
-#         date TEXT, 
-#         carrier TEXT)""")    
-#     conn.commit()
